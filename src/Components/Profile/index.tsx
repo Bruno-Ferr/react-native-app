@@ -9,20 +9,20 @@ export function Profile() {
         <Pressable style={styles.place}>
           <Text>Fotos da Modular</Text>
           <View>
-
+            {/* fotos */}
           </View>
         </Pressable>
         <Pressable style={styles.party}>
           <Text>Festa 1</Text>
-          <div>
+          <View>
             {/* fotos */}
-          </div>
+          </View>
         </Pressable>
         <Pressable style={styles.party}>
           <Text>Festa 2</Text>
-          <div>
+          <View>
             {/* fotos */}
-          </div>
+          </View>
         </Pressable>
       </View>
     </SafeAreaView>

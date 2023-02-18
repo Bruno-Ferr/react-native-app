@@ -1,11 +1,10 @@
 import { Image, SafeAreaView, StyleSheet, Text, View } from 'react-native';
-import {FeedPubli} from '../../Components/publi/FeedPubli';
+import { Home } from '../../Components/Home/index';
 
-export function Home() {
+export function FirstPage() {
   return (
-    <SafeAreaView>
-      
-      <FeedPubli title='Modular- Festa do pijama' imageSource={require('../../assets/appImg.png')} />
+    <SafeAreaView>  
+      <Home />
     </SafeAreaView>
   );
 }
